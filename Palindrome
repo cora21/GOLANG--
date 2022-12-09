@@ -1,0 +1,25 @@
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println(isPalindrome("ana"))
+}
+func isPalindrome(j string) bool {
+	var result bool
+	b := Reverse(j)
+	if j == b {
+		result = true
+	} else {
+		result = false}
+	return result
+}
+//esto retorna las palabras completas al reves, para luego devolverla y se comparada con la misma
+func Reverse(word string) string {
+	y := len(word)
+	var b string
+	for i := y - 1; i >= 0; i-- {
+		b += string(word[i])
+	}
+	return b
+}
