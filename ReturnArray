@@ -1,0 +1,40 @@
+package main
+import "fmt"
+
+func main(){
+	Arr := []string{"a", "a", "c", "c", "s", "x", "x", "x", "x", "a"} 
+	fmt.Println(Extract(Arr))
+}
+func Extract(arr []string) [][]string{
+	b := [][]string{}
+	a := []string{}
+	y := len(arr)
+	j := 0
+	//se agrega al array a el primer elemento, y luego se declara h para utilizarla abajo
+	for i:=1; i<y;{
+			a = append(a, arr[j])
+			h:=len(a)
+		if a[0] == arr[i]{
+		// este if es para cancelar el bucle, si no, se pasa del indice
+			if i == y-1{
+				a = append(a, arr[j])
+				b = append(b, a)
+				break
+		}
+			i++
+		}else{
+			//este if lo que busca es el eliminar el contenido que tenga a si es uno solo, ya que no nos sirve
+			if h != 1{
+				b = append(b, a)
+				j = i
+				i++ 
+				a = nil
+			}else{
+				j = i
+				i++ 
+				a = nil
+		}	
+	}
+}
+		return b
+}
