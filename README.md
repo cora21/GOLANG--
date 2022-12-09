@@ -1,10 +1,9 @@
 # Exercise in GO
 
-En el presente repositorio podemos encontrar 4 ejercicios propuesto en la materia algoritmo y programacion, los cuales fueron hechos en el lenguaje GO, quiero comentar que era primera vez que trabajaba con el, y de verdad agradecido con el mismo jajaja ya que por su sintaxis tan simple te permite entender la base de las funciones y diferentes metodos que utilizamos en los lenguajes es importante tener una base solida, para poder avanzar.
-alguien una vez dijo que "lo basico no es falta de evolucion si no lo elemental", y gracias a este lenguaje que recomiendo desde mi punto de vista como estudiante y es que te enseña, o sea opdemos trabajar con lenguajes muy pesados como java o javascrit aunque en ocaciones al no manejar muchos temas se pierde y te puedes ver abrumado por el mundo tan grande sin embargo GO te permite entender he ir avanzando en el aprendijaza
+In this repository we can find 4 exercises proposed in the subject algorithm and programming, which were done in the GO language, I want to comment that it was the first time that I worked with it, and I am really grateful for it hahaha since its syntax is so Simple allows you to understand the basis of the functions and different methods that we use in the languages. It is important to have a solid foundation, in order to move forward.
+With the resolution of the exercises, I studied a lot what arrays are, until we mastered them, which were essential for their development. The one that cost me the most was number 3. I really spent hours thinking about how to do it, but at the end of the day I achieved it
 
-con la resolucion de los ejercicios estudie muchisimo lo que son los arrays, hasta dominarnos, los cuales eran indispensables para el desarrollo de los mismo, el que mas me costo fue el numero 3 de verdad pase horas pensando en como hacerlo, pero al final del dia lo logre.
+In conclusion, thank Professor Jose for his time invested and the knowledge shared for his students.
 
-Como conclucion agradecerle al profesor Jose por su tiempo invertido y el conociento compartido para sus estudiantes.
+Thank you...
 
-Gracias...
