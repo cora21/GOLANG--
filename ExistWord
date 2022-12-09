@@ -1,0 +1,26 @@
+package main
+
+import "fmt"
+
+func main(){
+	fmt.Println(ExistWord("ana", "bonitana tiene un arpa"))
+}
+//mantener la primera palabra fija mientras voy comparandola en la frase, con el mismo tamaño que tenga la palabra uno
+func ExistWord(w, fragment string)bool{
+	var l bool
+	d := len(w)
+	a := w[0:d]
+	y := len(fragment)
+	for i := 0; i< y ; i++{
+		b := fragment[i:d]
+		if d == y-1 {
+			return false
+		} else if a != b {
+			d++
+		}else{
+			return true
+			break
+		}
+	} 
+	return l
+}
