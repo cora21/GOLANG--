@@ -1,0 +1,38 @@
+package main
+
+import "fmt"
+
+func main() {
+	arr1 := []string{"a", "c", "x", "a"}
+	arr2 := []string{"y", "a", "x"}
+	fmt.Println(CreateSeed(arr1, arr2))
+}
+func CreateSeed(s, p []string) int {
+	var suma int
+	y := len(s)
+	g := len(p)
+	var b int
+	a := 1
+//mediante 2 for voy recorriendo la cadena y cuando consigo los iguales los voy sumando en b 
+	for i := 0; i < y; {
+		for j := 0; j < g; {
+			if s[i] == p[j] {
+				b += j
+				a *= j
+				break
+			} else {
+				j++
+			}
+		}
+		i++
+	}
+//con esta condicion valido que no sea igual a 0
+	if a <= 0 {
+		fmt.Println("la semilla no puede ser un numero menor o igual a 0")
+		
+	} else {
+		suma = a + b
+		return suma
+	}
+	return suma
+}
